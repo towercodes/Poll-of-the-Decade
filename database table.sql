@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS `decades`;
+CREATE TABLE IF NOT EXISTS `decades` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `votes` varchar(7) NOT NULL,
+  UNIQUE KEY `unique` (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+COMMIT;
