@@ -1,0 +1,21 @@
+This is a polling app that:
+Allows a user to see voting options.
+Vote for an option.
+View results after voting.
+
+The following technologies were used:
+PHP 7.3
+MySQL 5.8
+Laravel 8
+
+The following files are relevant to this application:
+PollController.php
+model located in Poll.php
+2021_01_26_040343_create_poll_table.php
+index.blade
+results.blade
+.env
+routes located at web.php
+
+
+Developed by Tawanda Mutasa: tawacodes@gmail.com
